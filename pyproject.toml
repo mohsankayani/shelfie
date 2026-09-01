@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "shelfie"
+version = "0.1.0"
+description = "Shelve your Downloads folder. One command."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "Mohsin Mehmood" }]
+keywords = ["files", "organiser", "organizer", "downloads", "cleanup",
+            "file-management", "productivity", "obsidian", "cli"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Environment :: Console",
+  "Intended Audience :: End Users/Desktop",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: Microsoft :: Windows",
+  "Operating System :: MacOS :: MacOS X",
+  "Operating System :: POSIX :: Linux",
+  "Programming Language :: Python :: 3",
+  "Topic :: Desktop Environment :: File Managers",
+  "Topic :: Utilities",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/mohsankayani/shelfie"
+Issues = "https://github.com/mohsankayani/shelfie/issues"
+
+[project.scripts]
+shelfie = "shelfie.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["shelfie*"]
