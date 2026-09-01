@@ -3,7 +3,7 @@ requires = ["setuptools>=64"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "shelfie"
+name = "shelfie-cli"
 version = "0.1.0"
 description = "Shelve your Downloads folder. One command."
 readme = "README.md"

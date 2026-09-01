@@ -9,3 +9,4 @@ venv/
 Thumbs.db
 banner_preview*.png
 .github-ci-pending/
+dist/

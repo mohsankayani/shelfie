@@ -63,8 +63,11 @@ shelfie starts somewhere else — **how you use a thing, not what type it is.**
 ## Install
 
 ```bash
-pip install shelfie
+pip install shelfie-cli
 ```
+
+The command is still `shelfie` — the package is `shelfie-cli` on PyPI because
+the shorter name was already taken by an unrelated project.
 
 <details>
 <summary>From source</summary>
